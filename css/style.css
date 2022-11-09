@@ -93,9 +93,32 @@ header {
 main {
 width: 1000px;
 margin: 0 auto auto auto;
-padding: auto;
+padding: 100px 20px 0 20px;
 background-color: white;
 
+}
+.cardSection {
+    
+}
+
+/* assets */
+
+.card {
+    background-color: var(--grey);
+    border-radius: 20px;
+    width: 155px;
+    height: 250px;
+}
+
+.cardName {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 5px 0 3px 0;
+    height: fit-content;
+}
+.cardImg {
+    border-radius: 20px 20px 0 0;
 }
 
 .elements {
