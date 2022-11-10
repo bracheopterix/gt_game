@@ -114,27 +114,31 @@ main {
     text-transform: uppercase;
     text-align: center;
     color: white;
-    padding: 5px 0 3px 0;
+    padding: 5px 0 0 0;
     height: fit-content;
 }
 
-.cardImg {
+/* .cardImg {
     border-radius: 15px 15px 0 0;
     outline-style: solid;
     outline-offset: -3px;
     outline-color: var(--basic);
     
-}
+} */
 
-/* .illustration {
-    background-image: url(../img/illustrations/knight.png);
+.illustration {
+    height: 110px;
+    width: 155px;
     background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
+    border-radius: 14px 14px 0 0;
     outline-style: solid;
     outline-offset: -3px;
     outline-color: var(--basic);
-} */
+}
 
+.knight {
+    background-image: url(../img/illustrations/knight.png);
+}
 
 
 .rating {
@@ -142,42 +146,43 @@ main {
     height: 20px;
     width: 75px;
     margin-left: 5px;
-    margin-top: 0;
-    
+    margin-top: -4px;
+
 }
 
 .oneStar {
-    height:20;
+    height: 20;
     width: 75px;
     background-image: url(../img/rating/RATING=1.png);
     background-repeat: no-repeat;
-    margin; 0;
-    
+    margin;
+    0;
+
 }
 
 .twoStars {
-    height:20;
+    height: 20;
     width: 75px;
     background-image: url(../img/rating/RATING=2.png);
     background-repeat: no-repeat;
 }
 
 .threeStars {
-    height:20;
+    height: 20;
     width: 75px;
     background-image: url(../img/rating/RATING=3.png);
     background-repeat: no-repeat;
 }
 
 .fourStars {
-    height:20;
+    height: 20;
     width: 75px;
     background-image: url(../img/rating/RATING=4.png);
     background-repeat: no-repeat;
 }
 
 .fiveStars {
-    height:20;
+    height: 20;
     width: 75px;
     background-image: url(../img/rating/RATING=5.png);
     background-repeat: no-repeat;
