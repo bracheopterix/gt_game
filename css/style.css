@@ -26,6 +26,20 @@
     transform: rotate(-45deg);
 }
 
+h1 {
+    text-transform: uppercase;
+    font-size: 20pt;
+    text-align: center;
+    color: var(--basic);
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 18pt;
+    color: var(--dark);
+    margin: 10px;
+}
+
 body {
     background-color: var(--bg);
     padding: 0;
@@ -93,21 +107,31 @@ header {
 
 main {
     width: 1000px;
+    height: fit-content;
     margin: 0 auto auto auto;
     padding: 100px 20px 0 20px;
     background-color: white;
 
 }
 
-.cardSection {}
+.cardsSection {
+    margin: 0 auto 0 auto;
+    display: inline-block;
+    width: 876px;
+    height: fit-content;
+    padding: 0 62px 50px 62px;
+}
 
 /* assets */
 
 .card {
+    float: left;
+    margin: 10px;
     background-color: var(--basic);
     border-radius: 20px;
     width: 155px;
     height: 250px;
+    
 }
 
 .cardName {
@@ -140,6 +164,9 @@ main {
     background-image: url(../img/illustrations/knight.png);
 }
 
+.girgas {
+    background-image: url(../img/illustrations/girgas.png);
+}
 
 .rating {
     /* change this to normal script later */
