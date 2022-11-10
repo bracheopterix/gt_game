@@ -172,8 +172,7 @@ main {
     /* change this to normal script later */
     height: 20px;
     width: 75px;
-    margin-left: 5px;
-    margin-top: -4px;
+    margin: -4px 5px 1px 5px;
 
 }
 
@@ -182,8 +181,7 @@ main {
     width: 75px;
     background-image: url(../img/rating/RATING=1.png);
     background-repeat: no-repeat;
-    margin;
-    0;
+    
 
 }
 
@@ -229,7 +227,9 @@ main {
 }
 
 
-
+.chClass {
+    margin-bottom: 1px;
+}
 .chainSkills {
     display:inline;
 }
