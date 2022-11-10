@@ -215,6 +215,45 @@ main {
     background-repeat: no-repeat;
 }
 
+.cardDescription {
+    height: 80px;
+    border-radius: 0 0 14px 14px;
+    outline-color: var(--basic);
+    outline-offset: -3px;
+    outline-style: solid;
+    background-color: var(--bg);
+    padding: 8px 5px 0 8px;
+    text-align: left;
+    text-transform: capitalize;
+    color: var(--basic);
+}
+
+
+
+.chainSkills {
+    display:inline;
+}
+.skill {
+width: fit-content;
+height: 20px;
+padding: 2px 4px 0 4px;
+border-radius: 5px;
+border-color: var(--basic);
+border-style: dotted;
+border-width: 1px;
+font-size: 13pt;
+text-transform: lowercase;
+}
+
+.arrow {
+    padding: 4px 2px 0px 2px;
+}
+
+.float {
+    float: left;
+}
+
+
 .elements {
     align-self: center;
     /* border-color: var(--grey);
