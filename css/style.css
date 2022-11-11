@@ -297,7 +297,7 @@ main {
     height: 80px;
     border-radius: 0 0 14px 14px;
     outline-color: var(--basic);
-    outline-offset: -3px;
+    outline-offset: -3.1px;
     outline-style: solid;
     background-color: var(--bg);
     padding: 8px 5px 0 8px;
@@ -311,7 +311,7 @@ main {
 }
 
 .chainSkills {
-    width: 143girpx;
+    width: 143px;
     display: inline-block;
 }
 
@@ -344,10 +344,43 @@ main {
 
 }
 
+
+.altDescription {
+    height: 50px;
+}
+
+.altDescription:hover + .hide {
+    display: block;
+    background-color: var(--cocoa);
+    padding: 10px;
+    position:relative;
+    top: -100px;
+    /* z-index: 3; */
+    color: var(--basic);
+    border-radius: 20px;
+    outline-offset: -3px;
+    outline-color: var(--basic);
+    outline-style: solid;
+    text-align: center;
+  }
+
+  .hide {
+    display: none;
+  }
+  
+  .rivera::before {
+    content: "Rivera (sword) -> airbourne";
+}
+
+/* other */
+
 footer {
     height: 50px;
     background-color: var(--basic);
     text-align: center;
-    padding-top: 15px;
+    padding-top: 20px;
     
 }
+
+
+
