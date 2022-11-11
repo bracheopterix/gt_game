@@ -149,9 +149,7 @@ main {
     border-radius: 20px;
     width: 155px;
     height: 250px;
-
 }
-
 
 .cardName {
     text-transform: uppercase;
@@ -161,27 +159,14 @@ main {
     height: fit-content;
 }
 
-/* .cardImg {
-    border-radius: 15px 15px 0 0;
+.cardImg {
+    height: 110px;
+    width: 155px;
+    border-radius: 14px 14px 0 0;
     outline-style: solid;
     outline-offset: -3px;
     outline-color: var(--basic);
-    
-} */
-
-.cardStarter {
-    background-color: var(--bg);
-    border-radius: 15px;
-    outline-style: solid;
-    outline-color: var(--basic);
-    outline-offset: -3px;
-    min-height: 179px;
-    padding: 20px 15px 15px 15px;
-    text-align: center;
-    
-}
-.cardStarter .add {
-    text-transform: uppercase;
+    margin: 0;
 }
 
 .illustration {
@@ -194,12 +179,26 @@ main {
     outline-color: var(--basic);
 }
 
+.cardStarter {
+    background-color: var(--bg);
+    border-radius: 15px;
+    outline-style: solid;
+    outline-color: var(--basic);
+    outline-offset: -3px;
+    min-height: 180px;
+    padding: 20px 15px 15px 15px;
+    text-align: center;
+}
+.cardStarter .add {
+    text-transform: uppercase;
+}
+
 .rating {
     /* change this to normal script later */
     height: 20px;
     width: 155px;
     margin-left: 5px;
-    margin-top: -4px;
+    margin-top: -5px;
 }
 
 .oneStar {
@@ -226,7 +225,6 @@ main {
     background-image: url(../img/rating/RATING=5.png);
     background-repeat: no-repeat;
 }
-
 
 .elements {
     align-self: center;
@@ -281,7 +279,7 @@ main {
 }
 
 .cardDescription {
-    height: 80px;
+    height: 78px;
     border-radius: 0 0 14px 14px;
     outline-color: var(--basic);
     outline-offset: -3.1px;
@@ -328,9 +326,7 @@ main {
 .arrow {
     position: relative;
     top: 3px;
-
 }
-
 
 .altDescription {
     height: 20px;
@@ -369,8 +365,9 @@ footer {
     
 }
 
-/* charachters */
 
+
+/* CHARACHTERS ILLUSTTRATIONS
 .knight {
     background-image: url(../img/illustrations/knight.png);
 }
@@ -389,7 +386,7 @@ footer {
 
 .garam {
     background-image: url(../img/illustrations/garam.png);
-}
+} */
 /* weapons */
 
 .noWeapon::before {
