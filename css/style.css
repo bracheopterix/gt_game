@@ -47,7 +47,6 @@ body {
     background-color: var(--bg);
     padding: 0;
     margin: 0;
-
 }
 
 header {
@@ -106,9 +105,25 @@ header {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* main */
-
 main {
+    width: 1300px;
+    margin: auto;
+}
+/* main */
+.navigation {
+    float:left;
+    top: 230px;
+    position: sticky;
+    height: fit-content;
+}
+
+.navigation a {
+    color: var(--basic);
+    text-transform: uppercase;
+    padding: 0px 10px  10px 10px;
+} 
+
+.background {
     width: 1000px;
     height: fit-content;
     margin: 0 auto auto auto;
@@ -336,9 +351,3 @@ footer {
     padding-top: 15px;
     
 }
-footer a {
-    color: var(--bg);
-    text-transform: uppercase;
-    margin: 10px;
-    
-} 
