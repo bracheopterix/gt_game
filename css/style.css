@@ -194,30 +194,17 @@ main {
     outline-color: var(--basic);
 }
 
-.knight {
-    background-image: url(../img/illustrations/knight.png);
-}
-
-.girgas {
-    background-image: url(../img/illustrations/girgas.png);
-}
-
-
 .rating {
     /* change this to normal script later */
     height: 20px;
     width: 155px;
     margin-left: 5px;
     margin-top: -4px;
-
-
 }
 
 .oneStar {
     background-image: url(../img/rating/RATING=1.png);
     background-repeat: no-repeat;
-
-
 }
 
 .twoStars {
@@ -346,7 +333,7 @@ main {
 
 
 .altDescription {
-    height: 50px;
+    height: 20px;
 }
 
 .altDescription:hover + .hide {
@@ -354,8 +341,8 @@ main {
     background-color: var(--cocoa);
     padding: 10px;
     position:relative;
-    top: -100px;
-    /* z-index: 3; */
+    top: -10px;
+    position: relative;
     color: var(--basic);
     border-radius: 20px;
     outline-offset: -3px;
@@ -368,9 +355,9 @@ main {
     display: none;
   }
   
-  .rivera::before {
-    content: "Rivera (sword) -> airbourne";
-}
+
+
+ 
 
 /* other */
 
@@ -382,5 +369,45 @@ footer {
     
 }
 
+/* charachters */
 
+.knight {
+    background-image: url(../img/illustrations/knight.png);
+}
 
+.girgas {
+    background-image: url(../img/illustrations/girgas.png);
+}
+
+.dolf {
+    background-image: url(../img/illustrations/dolf.png);
+}
+
+.favi {
+    background-image: url(../img/illustrations/favi.png);
+}
+
+.garam {
+    background-image: url(../img/illustrations/garam.png);
+}
+/* weapons */
+
+.noWeapon::before {
+    content: "disarmed";
+}
+
+.rivera::before {
+    content: "Rivera (sword) -> airbourne";
+}
+
+.authorityOfLight::before {
+    content: "Authority of light -> injured";
+}
+
+.frostEyeStaff::before {
+    content: "Frost eye staff -> injured";
+}
+
+.nestOfWhiteDragon::before {
+    content: "Nest of White Dragon -> injured";
+}
