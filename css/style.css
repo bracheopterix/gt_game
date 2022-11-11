@@ -40,6 +40,9 @@ h2 {
     margin: 10px;
 }
 
+
+
+
 body {
     background-color: var(--bg);
     padding: 0;
@@ -134,6 +137,7 @@ main {
 
 }
 
+
 .cardName {
     text-transform: uppercase;
     text-align: center;
@@ -149,6 +153,21 @@ main {
     outline-color: var(--basic);
     
 } */
+
+.cardStarter {
+    background-color: var(--bg);
+    border-radius: 15px;
+    outline-style: solid;
+    outline-color: var(--basic);
+    outline-offset: -3px;
+    min-height: 179px;
+    padding: 20px 15px 15px 15px;
+    text-align: center;
+    
+}
+.cardStarter .add {
+    text-transform: uppercase;
+}
 
 .illustration {
     height: 110px;
@@ -167,6 +186,7 @@ main {
 .girgas {
     background-image: url(../img/illustrations/girgas.png);
 }
+
 
 .rating {
     /* change this to normal script later */
@@ -292,16 +312,33 @@ main {
     text-transform: lowercase;
 }
 
-.float.first {
+.skill .first {
     float: right;
 }
 
-.float.second {
+.skill .second {
     float:left;
 }
 
+.clear {
+    clear: left;
+}
 .arrow {
     position: relative;
     top: 3px;
 
 }
+
+footer {
+    height: 50px;
+    background-color: var(--basic);
+    text-align: center;
+    padding-top: 15px;
+    
+}
+footer a {
+    color: var(--bg);
+    text-transform: uppercase;
+    margin: 10px;
+    
+} 
